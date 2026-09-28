@@ -1,0 +1,9 @@
+name: CI Principal
+ 
+on:
+  push:
+    branches: [ "main" ]
+ 
+jobs:
+  platform-ci:
+    uses: GitFabien/platform-demo-lab1/.github/workflows/ci-ju-stoe.yml@main
