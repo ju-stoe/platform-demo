@@ -24,4 +24,4 @@ jobs:
     name: Build and Push Docker Image
     needs: test-api # Ce job attendra que les tests soient réussis pour se lancer
     # Utilisation de ton fork temporairement pour débloquer l'action
-    uses: ju-stoe/platform-demo-lab1/.github/workflows/ci-ju-stoe.yml@add-ci-ju-stoe
+    uses: ju-stoe/platform-demo/.github/workflows/ci-ju-stoe.yml@add-ci-ju-stoe
